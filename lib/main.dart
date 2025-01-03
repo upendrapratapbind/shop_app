@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/utils/theme/theme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.system,
-      theme: ThemeData(),
-      debugShowCheckedModeBanner: false,
-      darkTheme: ThemeData(),
+      theme: TAppTheme.lightaTheme,
+      darkTheme: TAppTheme.darkTheme,
     );}}
