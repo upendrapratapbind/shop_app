@@ -13,6 +13,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.system,
-      theme: TAppTheme.lightaTheme,
+      theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
     );}}
